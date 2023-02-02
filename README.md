@@ -3,15 +3,7 @@
 
 
 ### Plugins
-- hypercwd - With this plugin, you can easily set your starting directory when opening the terminal.
-- hyperterm-dibdabs - Put a little colored dot next to your terminal tabs. Makes a big difference in navigation.
-- hyper-search - Search for text in your terminal.
-- hyper-blink - Make your cursor blink.
-- hyperterm-paste - Makes pasting into hyperterm safe and easy(remove leading $, remove leading whitespaces...)
-- hyperlinks - Saving clicks and mouse movements can go a long way.
-- hyper-alt-click - An experimental (hacky) plugin to allow moving the cursor by alt+clicking in hyper.
-- hyperborder - adds a gradient border to the Hyper terminal
-- hyperterm-cursor - a color difference cursor
+
 
 Settings:
 ```
@@ -37,6 +29,8 @@ Flags:
 Flags:
 - -r This command will delete everything inside some dir<>.
 - -f If you have some problem with the file permission, you can use a flag -f (Forse).    
+`cp` - command for copying files from one location to another
+> cp [...file/directory-sources] [destination]
 
 ### Interrupting commands
 When we're satisfied with the results, we can interrupt it by holding `ctrl` and pressing `c`.
@@ -63,7 +57,7 @@ git switch [branch name]
 ```
 
 ### Lil’ tricks
-Suppose we want to bounce back and forth between two directories with cd it's exhausting but we might utilize a helpful comman `-`
+Suppose we want to bounce back and forth between two directories with cd it's exhausting but we might utilize a helpful comman `cd -` or `git checkout`
 
 Clearing the terminal some different ways:
 There are a few ways to accomplish this. There's a `clear` command.
